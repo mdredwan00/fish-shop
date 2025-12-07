@@ -1,1 +1,16 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; padding: 0; background: #f4f7f9; color: #222; }
+header { background: #0b7; color: white; padding: 12px 16px; }
+main { display: flex; gap: 20px; padding: 16px; max-width: 1000px; margin: 0 auto; }
+section { background: white; padding: 12px; border-radius: 6px; flex: 1; }
+#fish-list .fish { border-bottom: 1px solid #eee; padding: 8px 0; display:flex; justify-content:space-between; align-items:center; }
+.fish-name { font-weight: bold; }
+.fish-meta { font-size: 0.9em; color: #555; }
+button { padding: 6px 10px; border: none; border-radius: 4px; cursor: pointer; background: #0b7; color: white; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+#cart-list { min-height: 60px; }
+.cart-row { display:flex; justify-content:space-between; gap:10px; padding:4px 0; }
+.cart-actions { margin-top: 8px; display:flex; gap:8px; align-items:center; }
+input { padding:6px; border-radius:4px; border:1px solid #ccc; }
+#message { margin-top: 8px; color: #b00; }
 
