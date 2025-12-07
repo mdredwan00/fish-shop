@@ -1,1 +1,10 @@
+{
+  "fish": [
+    { "id": 1, "name": "Tilapia", "price": 5.50, "qty": 20, "desc": "Fresh tilapia (per kg)" },
+    { "id": 2, "name": "Salmon", "price": 12.00, "qty": 8, "desc": "Atlantic salmon (per kg)" },
+    { "id": 3, "name": "Rohu", "price": 6.00, "qty": 15, "desc": "Rohu (per kg)" },
+    { "id": 4, "name": "Catfish", "price": 4.75, "qty": 10, "desc": "Catfish (per kg)" }
+  ],
+  "orders": []
+}
 
